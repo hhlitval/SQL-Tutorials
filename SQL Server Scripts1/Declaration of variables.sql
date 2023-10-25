@@ -21,8 +21,8 @@ PRINT @int1
 DECLARE @firstDecimal decimal = 430.567 -- since decimal(p, s)* by default (18,0), so it's been rounded up to 431
 PRINT @firstDecimal
 /* 
-    *p stands for Precision, the total number of digits in the value on both sides of the decimal point
-    *s stands for Scale, number of digits after the decimal point
+    * p stands for Precision, the total number of digits in the value on both sides of the decimal point
+      s stands for Scale, number of digits after the decimal point
 */
 
 DECLARE @secondDecimal decimal(6,3) = 430.567 -- 430.567
