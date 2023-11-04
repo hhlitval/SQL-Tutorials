@@ -19,6 +19,18 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="1.Retrieving data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1.Retrieving data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2.Sorting query results.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.Sorting query results.sql</FullPath>
+        </FileNode>
         <FileNode Name="Declaration of variables.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
