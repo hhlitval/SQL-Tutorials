@@ -12,8 +12,8 @@ MODIFY NAME = NewDatabase -- for example giving a new name
 DROP DATABASE NewDatabase
 
 -- Create a table
-USE Newdb 
-CREATE TABLE dbo.Students -- Press Ctrl + K + X to insert snippet "Table"
+USE SampleDb
+CREATE TABLE Students -- Press Ctrl + K + X to insert snippet "Table"
 (
     Id int NOT NULL IDENTITY(1,1), -- (1,1) by default!
     Firstname nvarchar(20) NULL,   
