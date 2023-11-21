@@ -2,10 +2,6 @@
 ****** Built-In, Scalar Functions ******
 ***************************************/
 
-/*********************
-** SCALAR FUNCTIONS **
-*********************/
-
 -- System function @@ERROR
 DECLARE @integer int;
 SET @integer = 'Four';
@@ -88,6 +84,28 @@ SELECT
 	LEN('hello    ...    .!') [Length],   -- returns length incl. spaces: 18
 	REVERSE('gfedcbA') [Reverse]          -- reverse a string: Abcdefg
 
-/***********************
-** BUILT-IN FUNCTIONS **
-***********************/
+-- STUFF, SUBSTRING, LTRIM, RTRIM, SPACE, REPLICATE
+SELECT 
+	STUFF('abcabc', 4, 3, 'def') [Stuff],            -- replace a string from 4th charachter with 3 chars 'def': abcdef 
+	SUBSTRING('abcdef', 1, 3) [Substring],           -- cut 3 chars beginning from the first character: abc
+	LTRIM('      qwerty') [Ltrim],                   -- remove spaces from the left
+	RTRIM('oi!    ') [Rtrim],                        -- remove spaces from the right    
+	'Hello' + ',' + SPACE(1) + 'World!' [Greeting],  -- Hello, World!
+	REPLICATE(4, 10) [ReplicateNum],                 -- replicate numbers, chars, spaces, strings n times  
+	REPLICATE('bla', 3) [ReplicateString] 
+
+-- CHARINDEX
+SELECT CHARINDEX('Savior', 'I am your savior'),       -- Looking for the start index of the pattern (Savior): 11
+	   CHARINDEX('Savior', 'I am your savior', 10)    -- Same query but giving the starting index for searching: 11
+
+-- REPLACE
+SELECT REPLACE('I am your savior', 'your', 'not your') -- replacing the second argument with the third one
+
+-- STRING CONCATENATION
+SELECT 'Harry' + ' ' + 'Potter',               -- Harry Potter
+	   'Ronald' + ' ' + NULL,	               -- NULL
+	   CONCAT('Ronald', ' ', NULL, 'Weasley')  -- If one the arguments is NULL, it will be ignored
+
+-- Splitting the string based on a separator
+SELECT value
+FROM string_split('I Am Your Savior|Shapeless To|Your Perception|For I am You|Pierced From Within', '|')
