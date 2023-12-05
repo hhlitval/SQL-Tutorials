@@ -38,8 +38,34 @@ create table Users_Roles(
 	primary key(UserId, RoleId)
 );
 
+-- Defining columns
+create table Users(
+	Id integer primary key identity(1,1),
+	Email varchar(25),
+	CreatedAt datetime,
+	First varchar(25),
+	Last varchar(25),
+	Bio text
+);
 
-select * from Users
+-- Basic column constraints
+create table Users(
+	Id integer primary key identity(1,1),
+	Email varchar(255) not null unique,
+	CreatedAt datetime not null,
+	MoneySpent decimal(10,2),
+	First varchar(50),
+	Last varchar(50),
+	Bio varchar(max)
+);
 
-
-
+-- Column defaults
+create table Users(
+	Id integer primary key identity(1,1),
+	Email varchar(255) not null unique,
+	MoneySpent decimal(10,2) default 0,
+	CreatedAt datetime not null default getdate(),	
+	First varchar(50),
+	Last varchar(50),
+	Bio varchar(max)
+);

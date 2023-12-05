@@ -25,6 +25,12 @@
           <AssociatedConnUserName />
           <FullPath>1.Working with tables.sql</FullPath>
         </FileNode>
+        <FileNode Name="2.Working with data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2.Working with data.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
