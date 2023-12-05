@@ -5,13 +5,16 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server Scripts1", "SQL Server Scripts1\SQL Server Scripts1.ssmssqlproj", "{17EFA148-56E4-41E1-92C3-FDBBF3CF6FE9}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "T-SQL Playbook", "T-SQL Playbook\T-SQL Playbook.ssmssqlproj", "{663F7001-EC6E-406F-A7E1-740E3A17A798}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{23529DD3-3986-4E64-8F80-759804F127B9}.Default|Default.ActiveCfg = Default
 		{17EFA148-56E4-41E1-92C3-FDBBF3CF6FE9}.Default|Default.ActiveCfg = Default
+		{663F7001-EC6E-406F-A7E1-740E3A17A798}.Default|Default.ActiveCfg = Default
+		{D1A0EC8C-7D16-4173-824E-A1DD3ED24287}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
