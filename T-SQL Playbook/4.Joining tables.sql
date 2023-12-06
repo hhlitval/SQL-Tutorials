@@ -1,4 +1,5 @@
 -- Inner Joins
+USE Chinook;
 select Invoice.InvoiceId, InvoiceDate, UnitPrice, Quantity 
 from Invoice
 inner join InvoiceLine 
