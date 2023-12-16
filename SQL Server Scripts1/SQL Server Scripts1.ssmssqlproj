@@ -19,47 +19,35 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="1.Retrieving data.sql">
+        <FileNode Name="1.Declaration of variables.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>1.Retrieving data.sql</FullPath>
+          <FullPath>1.Declaration of variables.sql</FullPath>
         </FileNode>
-        <FileNode Name="2.Sorting query results.sql">
+        <FileNode Name="2.DML_DDL_Commands.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>2.Sorting query results.sql</FullPath>
+          <FullPath>2.DML_DDL_Commands.sql</FullPath>
         </FileNode>
-        <FileNode Name="Built_In_Scalar_Functions.sql">
+        <FileNode Name="3.SELECT_Statement.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Built_In_Scalar_Functions.sql</FullPath>
+          <FullPath>3.SELECT_Statement.sql</FullPath>
         </FileNode>
-        <FileNode Name="Declaration of variables.sql">
+        <FileNode Name="4.Built_In_Scalar_Functions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>Declaration of variables.sql</FullPath>
-        </FileNode>
-        <FileNode Name="DML_DDL_Commands.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>DML_DDL_Commands.sql</FullPath>
+          <FullPath>4.Built_In_Scalar_Functions.sql</FullPath>
         </FileNode>
         <FileNode Name="Mathematical_Functions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Mathematical_Functions.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SELECT_Statement.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SELECT_Statement.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

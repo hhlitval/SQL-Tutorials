@@ -7,6 +7,8 @@ Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Server Scripts1", "SQL 
 EndProject
 Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "T-SQL Playbook", "T-SQL Playbook\T-SQL Playbook.ssmssqlproj", "{663F7001-EC6E-406F-A7E1-740E3A17A798}"
 EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Query Solutions", "SQL Query Solutions\SQL Query Solutions.ssmssqlproj", "{CDBE7631-F61F-4A89-A49F-4B462137E089}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|Default = Default|Default
@@ -14,7 +16,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{17EFA148-56E4-41E1-92C3-FDBBF3CF6FE9}.Default|Default.ActiveCfg = Default
 		{663F7001-EC6E-406F-A7E1-740E3A17A798}.Default|Default.ActiveCfg = Default
-		{D1A0EC8C-7D16-4173-824E-A1DD3ED24287}.Default|Default.ActiveCfg = Default
+		{F8BA56EF-F733-45DF-9D94-AAF81B8BE2B0}.Default|Default.ActiveCfg = Default
+		{CDBE7631-F61F-4A89-A49F-4B462137E089}.Default|Default.ActiveCfg = Default
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
