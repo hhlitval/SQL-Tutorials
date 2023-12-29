@@ -25,23 +25,29 @@
           <AssociatedConnUserName />
           <FullPath>1.Declaration of variables.sql</FullPath>
         </FileNode>
-        <FileNode Name="2.DML_DDL_Commands.sql">
+        <FileNode Name="2.Data_Definition.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>2.DML_DDL_Commands.sql</FullPath>
+          <FullPath>2.Data_Definition.sql</FullPath>
         </FileNode>
-        <FileNode Name="3.SELECT_Statement.sql">
+        <FileNode Name="3.Data_Manipulation.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>3.SELECT_Statement.sql</FullPath>
+          <FullPath>3.Data_Manipulation.sql</FullPath>
         </FileNode>
-        <FileNode Name="4.Built_In_Scalar_Functions.sql">
+        <FileNode Name="4.SELECT_Statement.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>4.Built_In_Scalar_Functions.sql</FullPath>
+          <FullPath>4.SELECT_Statement.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5.Built_In_Scalar_Functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-P4IF38U\MYSQLSERVER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5.Built_In_Scalar_Functions.sql</FullPath>
         </FileNode>
         <FileNode Name="Mathematical_Functions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-P4IF38U\MYSQLSERVER:True</AssociatedConnectionMoniker>
